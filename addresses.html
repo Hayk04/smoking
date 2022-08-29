@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Address</title>
+
+</head>
+<body class="addresses">
+    <div class="wrapper">
+        <header class="testHeader">
+
+        </header>
+        <main>
+            <section class="address__hero">
+                <h1 class="title address__title">Адреса Центров <span>Аллена Карра</span></h1>
+                <p class="address__info">
+                    Курс в Центре Аллена Карра — это легкий и действенный способ бросить курить, отказаться от использования обычных и электронных сигарет, IQOS, вейпов, употребления насвая или снюса. Мы являемся экспертами в области лечения табакокурения и каждый день доказываем желающим бросить курить, что это можно сделать быстро, просто и без побочных эффектов. Если вам надоели бесчисленные попытки и старания избавиться от зависимости, просто свяжитесь с нами любым удобным способом:
+                </p>
+                <div class="address__social">
+                    <div class="address__social-list">
+                        <div class="address__social-item">
+                            <a href="#" class="address__social-link">
+                                <img src="./img/address_mail.svg" alt="Mail" class="address__social-img">
+                            </a>
+                            <p class="address__social-txt">Написать письмо</p>
+                        </div>
+                        <div class="address__social-item">
+                            <a href="tel:88002506622" class="address__social-link">
+                                <img src="./img/address_phone.svg" alt="Phone" class="address__social-img">
+                            </a>
+                            <p class="address__social-txt">8 (800) 250-66-22</p>
+                        </div>
+                        <div class="address__social-item">
+                            <a href="#" class="address__social-link">
+                                <img src="./img/address_vk.svg" alt="VK" class="address__social-img">
+                            </a>
+                            <p class="address__social-txt">ВКонтакте</p>
+                        </div>
+                        <div class="address__social-item">
+                            <a href="#" class="address__social-link">
+                                <img src="./img/address_youtube.svg" alt="Youtube" class="address__social-img">
+                            </a>
+                            <p class="address__social-txt">YouTube</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="address__city">
+                <!-- <img src="./img/address_circle1.png" alt="Circle" class="address__city-circle"> -->
+                <div class="address__city-inner">
+                    <div class="address__city-item">
+                        <div class="address__city-info">
+                            <h4 class="address__city-title">Москва</h4>
+                            <p class="address__city-txt">
+                                ул. Мироновская, д. 25, подъезд 2 <br>
+                                (с внутренней стороны здания), этаж 3 <br> <br>
+    
+                                м. «Семеновская»
+                            </p>
+                            <div class="address__city-btn">
+                                <a href="#" class="address__city-link">Посмотреть на карте</a>
+                            </div>
+                        </div>
+                        <div class="address__city-img">
+                            <img src="./img/moscow.jpg" alt="Moscow">
+                        </div>
+                    </div>
+                    <div class="address__city-item">
+                        <div class="address__city-img">
+                            <img src="./img/piter.jpg" alt="Piter">
+                        </div>
+                        <div class="address__city-info">
+                            <h4 class="address__city-title">Санкт-Петербург</h4>
+                            <p class="address__city-txt">
+                                Наб. реки Фонтанки, д.71, <br>
+                                Гостиница «Астерия» (Внимание! Данный адрес не является офисом, здесь проходит только курс). <br> <br>
+    
+                                м. «Спасская»
+                            </p>
+                            <div class="address__city-btn">
+                                <a href="#" class="address__city-link">Посмотреть на карте</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="address__contact">
+                <h2 class="title address__contact-title">
+                    Свяжитесь <span>с нами</span>
+                </h2>
+                <div class="address__contact-inner">
+                    <form action="#" class="address__contact-form">
+                        <div class="address__contact-info">
+                            <h4 class="address__contact-form_title">
+                                ваши контактные данные
+                            </h4>
+                            <label for="" class="address__select-label">
+                                <select class="address__select" name="theme_select">
+                                    <option value="theme" disabled selected>Тема</option>
+                                    <option value="yandex">Яндекс</option>
+                                    <option value="google">Гоогл</option>
+                                    <option value="vk">ВКонтакте</option>
+                                    <option value="instagram">Инстаграм</option>
+                                </select>
+                            </label>
+                            <label for="addressName" class="address__name-label">
+                                <img src="./img/address_user.svg" alt="User">
+                                <input type="text" placeholder="Имя" id="addressName">
+                            </label>
+                            <label for="addressPhone" class="address__phone-label">
+                                <img src="./img/address_phone-form.svg" alt="">
+                                <input type="tel" placeholder="Телефон" id="addressPhone">
+                            </label>
+                            <label for="addressMail" class="address__mail-label">
+                                <img src="./img/address_mail-form.svg" alt="">
+                                <input type="email" placeholder="Почта" id="addressMail">
+                            </label>
+                        </div>
+                        <div class="address__contact-radios">
+                            <h4 class="address__contact-form_title address__contact-radios_title">Как вы узнали о Центре Аллена Карра?
+                            </h4>
+                            <label for="addressSearch" class="address__contact-radio">
+                                Результаты поиска (Яндекс, Google)
+                                <input type="radio" required id="addressSearch" name="smokingRadio">
+                                <span class="address__contact-checkmark"></span>
+                            </label>
+                            <label for="addressSocial" class="address__contact-radio">
+                                Социальные сети (ВКонтакте, Facebook или Instagram)
+                                <input type="radio" required="required" id="addressSocial" name="smokingRadio">
+                                <span class="address__contact-checkmark"></span>
+                            </label>
+                            <label for="addressRecomended" class="address__contact-radio">
+                                Рекомендация от друзей или семьи
+                                <input type="radio" required="required" id="addressRecomended" name="smokingRadio">
+                                <span class="address__contact-checkmark"></span>
+                            </label>
+                            <label for="addressCourse" class="address__contact-radio">
+                                Проходил курсы Аллена Карра ранее
+                                <input type="radio" required="required" id="addressCourse" name="smokingRadio">
+                                <span class="address__contact-checkmark"></span>
+                            </label>
+                            <label for="addressNews" class="address__contact-radio">
+                                Новости или СМИ
+                                <input type="radio" required="required" id="addressNews" name="smokingRadio">
+                                <span class="address__contact-checkmark"></span>
+                            </label>
+                            <label for="addressAnother" class="address__contact-radio">
+                                Другое
+                                <input type="radio" required="required" id="addressAnother" name="smokingRadio">
+                                <span class="address__contact-checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="address__contact-bottom">
+                            <button class="address__contact-btn">связаться с нами</button>
+                            <p class="address__contact-txt">
+                                Отправляя заявку, вы соглашаетесь с условиями
+                            </p>
+                            <a href="#" class="address__contact-link">
+                                политики обработки персональных данных
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
